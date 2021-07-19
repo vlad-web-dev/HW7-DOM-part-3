@@ -1,0 +1,34 @@
+body {
+    background: #262424;
+}
+.main{
+    height: 100vh;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+}
+.title {
+    color: #ffffff;
+}
+.tasksBoard ul {
+    list-style: none;
+    padding-left: 0;
+    overflow-y: auto;
+    max-height: 300px;
+    margin-bottom: 0;
+}
+.tasksBoard ul li {
+    position: relative;
+}
+.tasksBoard ul li label {
+    word-wrap: break-word;
+    width: 300px;
+}
+.delete{
+    color: #ff6161;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+}

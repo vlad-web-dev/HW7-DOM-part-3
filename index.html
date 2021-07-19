@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HW7-DOM-part-3</title>
+    <script src="https://use.fontawesome.com/15ab749408.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+<section class="container">
+    <div class="d-flex flex-column main">
+        <div>
+            <h4 class="title text-center">Список дел</h4>
+            <form id="toDoList">
+                <div class="d-flex">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" name="task">
+                    </div>
+                    <div>
+                        <button class="btn btn-success" type="submit"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="tasksBoard">
+            <ul class="tasks">
+            </ul>
+        </div>
+    </div>
+</section>
+<script defer type="text/javascript" src="src/js/index.js"></script>
+</body>
+</html>
